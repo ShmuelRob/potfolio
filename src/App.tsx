@@ -8,7 +8,6 @@ import theme from "./theme.ts";
 function App() {
 
     return (
-      <>
         <LayoutPage>
           <ThemeProvider theme={theme}>
             <AnimatePresence>
@@ -16,7 +15,6 @@ function App() {
             </AnimatePresence>
           </ThemeProvider>
         </LayoutPage>
-      </>
     )
 }
 

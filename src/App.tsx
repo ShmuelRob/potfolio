@@ -6,13 +6,11 @@ import LayoutPage from "./pages/layoutPage.tsx";
 function App() {
 
     return (
-      <>
         <LayoutPage>
           <AnimatePresence>
             <RouterProvider router={router}/>
           </AnimatePresence>
         </LayoutPage>
-        </>
     )
 }
 
